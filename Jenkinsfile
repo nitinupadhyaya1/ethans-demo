@@ -18,7 +18,7 @@ stages {
 					}
 	stage('Validation') {
 			steps {
-				echo "Validation the code deployed in Production"
+				echo "Validation the code deployed in Production..."
 					}
 					}
 	stage('Post Validation') {
