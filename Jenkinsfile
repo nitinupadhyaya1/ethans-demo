@@ -3,7 +3,7 @@ agent any
 stages {
 	stage('SCM') {
 			steps {
-				echo "SCM from GIT repository"
+				echo "SCM from webhook"
 				}
 				}
 	stage('Testing') { 
