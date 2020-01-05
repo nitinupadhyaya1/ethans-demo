@@ -3,7 +3,7 @@ agent any
 stages {
 	stage('SCM') {
 			steps {
-				echo "SCM from webhook in Nov example"
+				echo "SCM from webhook in Nov example....."
 				}
 				}
 	stage('Testing') { 
